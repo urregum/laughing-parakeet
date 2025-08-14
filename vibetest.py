@@ -26,5 +26,5 @@ if __name__ == "__main__":
 
     target_file = sys.argv[1]
     search_words = ["Error", "Warning", "Critical"]
-    
+ 
     count_words_in_file(target_file, search_words)
