@@ -1,0 +1,5 @@
+# Ignore vscode specific configuration.
+.vscode/
+
+# Ignore any pypy artifacts
+__pycache__/

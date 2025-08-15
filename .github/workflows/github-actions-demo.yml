@@ -15,4 +15,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - run: python3 -u -m unittest vibetest.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
